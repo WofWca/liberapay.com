@@ -437,6 +437,7 @@ input.search {
     display: inline-block;
     margin: 0 20px 25px;
     text-align: center;
+    vertical-align: top;
     width: 104px;
     .avatar-cutter-98 {
         border: 3px solid $gray-lighter;
@@ -451,6 +452,9 @@ input.search {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+    }
+    .amount {
+        color: $text-color;
     }
 }
 
